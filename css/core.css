@@ -1,0 +1,22 @@
+html{
+  font-family: sans-serif,'Helvetica';
+}
+.navbar{
+  margin: 0 0 !important;
+}
+.introduction{
+  padding: 0 0;
+  background: url('/img/bg.jpg') no-repeat top;
+  /*background-image: url('/img/bg.jpg');
+  background-position: top;*/
+  /*background-size: cover;*/
+  background-size: contain;
+  /*background-repeat: no-repeat;*/
+  height: 95vh;
+}
+.intro-p{
+  color: white;
+  margin: 40% 0;
+  font-weight: bolder;
+  font-size: 2rem;
+}
