@@ -1,22 +1,62 @@
 html{
-  font-family: sans-serif,'Helvetica';
+  font-family: sans-serif;
 }
 .navbar{
   margin: 0 0 !important;
 }
+.content{
+  margin-top: 50px;
+}
 .introduction{
-  padding: 0 0;
-  background: url('/img/bg.jpg') no-repeat top;
-  /*background-image: url('/img/bg.jpg');
-  background-position: top;*/
-  /*background-size: cover;*/
-  background-size: contain;
-  /*background-repeat: no-repeat;*/
-  height: 95vh;
+  overflow: hidden;
+  background: url('/img/bg.jpg') no-repeat center top;
+  background-size: cover;
+  height: 480px;
+  width: 104.3%;
+}
+.h2{
+  text-align: center;
+  font-weight: lighter;
+}
+.h4{
+  text-align: center;
 }
 .intro-p{
   color: white;
-  margin: 40% 0;
-  font-weight: bolder;
+  margin: 85% 0;
+  font-weight: bold;
   font-size: 2rem;
+}
+.ruby{
+  background-color: #CC342D;
+}
+.css{
+  background-color: #1096CD;
+}
+.git{
+  background-color: #F34D27;
+}
+.other-skills{
+  background-color: black;
+}
+.skill{
+  text-align: center;
+}
+.skill-badge{
+  margin: 10px auto;
+  width: 100%;
+}
+.skill-badge i{
+  color: white;
+  margin: 10px 0;
+}
+.skill-badge p{
+  color: white;
+  padding-bottom: 5px;
+}
+.skill-p{
+  text-align: justify;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: #e6eaed;
 }
