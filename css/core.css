@@ -136,3 +136,17 @@ footer{
     margin: 0 0;
   }
 }
+
+@media (min-width: 1200px){
+  .introduction{
+    height: 100vh;
+    background: url('/img/bg.jpg') no-repeat center top;
+    background-size: cover;
+  }
+  .intro-p{
+    margin: 35% 0;
+  }
+  form{
+    margin: 0 20%;
+  }
+}
