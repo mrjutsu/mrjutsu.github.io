@@ -126,6 +126,45 @@ form{
   margin-top: 15px;
   margin-bottom: 40px;
 }
+input{
+  border: 0;
+  width: 100%;
+  height: 45px;
+  color: white;
+  line-height: 40px;
+  background: transparent;
+  border-radius: 0px;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: white;
+  font-family: 'Lato' !important;
+  font-weight: lighter !important;
+}
+textarea{
+  border: 0;
+  width: 100%;
+  height: 45px;
+  color: white;
+  line-height: 40px;
+  background: transparent;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  border-color: white;
+  border-radius: 0px;
+  font-family: 'Lato' !important;
+  font-weight: lighter !important;
+  text-indent: 15px;
+  font-size: 2rem !important;
+  color: white !important;
+  overflow: hidden;
+}
+input:focus,textarea:focus{
+  outline: none;
+}
+input[type="email"],input[type="text"]{
+  color: white;
+  font-size: 2rem;
+}
 .form-btn{
   margin: 0 30%;
 }
@@ -175,6 +214,45 @@ footer{
   .form-btn{
     margin: 0 45%;
   }
+  input{
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    line-height: 40px;
+    background: transparent;
+    border-radius: 0px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+  }
+  textarea{
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    line-height: 40px;
+    background: transparent;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    border-radius: 0px;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+    text-indent: 15px;
+    font-size: 2rem !important;
+    color: white !important;
+    overflow: hidden;
+  }
+  input:focus,textarea:focus{
+    outline: none;
+  }
+  input[type="email"],input[type="text"]{
+    color: white;
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 992px){
@@ -197,6 +275,45 @@ footer{
   form{
     margin: 0 0;
     margin-bottom: 30px;
+  }
+  input{
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    line-height: 40px;
+    background: transparent;
+    border-radius: 0px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+  }
+  textarea{
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    line-height: 40px;
+    background: transparent;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    border-radius: 0px;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+    text-indent: 15px;
+    font-size: 2rem !important;
+    color: white !important;
+    overflow: hidden;
+  }
+  input:focus,textarea:focus{
+    outline: none;
+  }
+  input[type="email"],input[type="text"]{
+    color: white;
+    font-size: 2rem;
   }
 }
 
@@ -232,7 +349,37 @@ footer{
     height: 45px;
     color: white;
     line-height: 40px;
-    font-size: 2rem;
     background: transparent;
+    text-indent: 15px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+  }
+  textarea{
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: white;
+    line-height: 40px;
+    background: transparent;
+    text-indent: 15px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+    font-family: 'Lato' !important;
+    font-weight: lighter !important;
+    text-indent: 15px;
+    font-size: 2rem !important;
+    color: white !important;
+    overflow: hidden;
+  }
+  input:focus,textarea:focus{
+    outline: none;
+  }
+  input[type="email"],input[type="text"]{
+    color: white;
+    font-size: 2rem;
   }
 }
