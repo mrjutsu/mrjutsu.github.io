@@ -19,6 +19,7 @@ html{
   font-weight: lighter !important;
   font-family: 'Lato' !important;
   margin-top: 50px !important;
+  margin-bottom: 25px !important;
 }
 .division{
   border-bottom-width: 1px;
@@ -43,6 +44,19 @@ html{
 }
 .git{
   background-color: #F34D27;
+}
+.html{
+  background-color: #EF652A;
+}
+.jquery{
+  background-color: #1169AE;
+}
+.p-icon{
+  margin: 0 0;
+  padding: 14px 0;
+  font-family: 'Lato' !important;
+  font-weight: lighter;
+  font-size: 4rem;
 }
 .other-skills{
   background-color: black;
@@ -96,7 +110,6 @@ form{
 footer{
   text-align: center;
   padding: 30px 0;
-  margin-top: 30px;
   background-color: #2a2730;
   color: white;
 }
@@ -110,8 +123,11 @@ footer{
     margin: 70% 0;
     font-size: 4rem;
   }
+  .division{
+    margin: 30px 7%;
+  }
   .skill{
-    margin: 0 10%;
+    margin: 0 8%;
   }
   .skill-p{
     font-size: 1.5rem;
@@ -143,6 +159,9 @@ footer{
   .intro-p{
     margin: 40% 0;
   }
+  .division{
+    margin: 30px 12%;
+  }
   .skill{
     margin: 0 0;
   }
@@ -161,7 +180,18 @@ footer{
     margin: 35% 0;
   }
   .division{
-    margin: 40px 30%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 55px;
+  }
+  .skill{
+    height: 350px;
+  }
+  .skill-p{
+    height: 190px;
+  }
+  .contact{
+    padding: 20px 0;
   }
   form{
     margin: 0 20%;
