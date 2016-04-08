@@ -114,7 +114,7 @@ html{
   overflow: hidden;
 }
 .about, .contact{
-  background-color: #3B94D9;
+  background-color: #286090;
 }
 .about p{
   text-align: justify;
@@ -336,9 +336,11 @@ footer{
     margin-bottom: 55px;
   }
   .skill{
+    /*height: auto;*/
     height: 470px;
   }
   .skill-p{
+    /*height: auto;*/
     height: 330px;
   }
   .contact{
