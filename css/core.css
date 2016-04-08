@@ -76,8 +76,8 @@ html{
   font-weight: lighter;
   font-size: 4rem;
 }
-.other-skills{
-  background-color: black;
+.angular{
+  background-color: #A6120D;
 }
 .skills{
   margin-bottom: 60px;
@@ -195,7 +195,7 @@ footer{
   }
   .skill-p{
     font-size: 1.6rem;
-    height: 270px;
+    height: 290px;
   }
   .about-img{
     width: 300px;
@@ -269,6 +269,9 @@ footer{
   .skill{
     margin: 0 0;
   }
+  .skill-p{
+    height: 280px;
+  }
   .about p{
     font-size: 2rem;
   }
@@ -332,10 +335,10 @@ footer{
     margin-bottom: 55px;
   }
   .skill{
-    height: 350px;
+    height: 440px;
   }
   .skill-p{
-    height: 220px;
+    height: 300px;
   }
   .contact{
     padding: 20px 0;
