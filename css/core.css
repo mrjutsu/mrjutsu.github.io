@@ -118,6 +118,7 @@ html{
 }
 .about p{
   text-align: justify;
+  font-size: 1.6rem;
 }
 .about-img img{
   width: 180px;
@@ -192,10 +193,12 @@ footer{
   }
   .skill{
     margin: 10px 30px;
+    min-height: 400px;
   }
   .skill-p{
     font-size: 1.6rem;
-    height: 290px;
+    height: auto;
+    min-height: 310px;
   }
   .about-img{
     width: 300px;
@@ -206,7 +209,7 @@ footer{
     width: 310px;
   }
   .about p{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
   form{
     margin: 15px 7%;
@@ -268,10 +271,10 @@ footer{
   }
   .skill{
     margin: 0 0;
-    height: 470px;
+    min-height: 400px;
   }
   .skill-p{
-    height: 330px;
+    min-height: 330px;
   }
   .about p{
     font-size: 2rem;
