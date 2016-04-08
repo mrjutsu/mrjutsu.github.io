@@ -268,9 +268,10 @@ footer{
   }
   .skill{
     margin: 0 0;
+    height: 470px;
   }
   .skill-p{
-    height: 280px;
+    height: 330px;
   }
   .about p{
     font-size: 2rem;
@@ -335,10 +336,10 @@ footer{
     margin-bottom: 55px;
   }
   .skill{
-    height: 440px;
+    height: 470px;
   }
   .skill-p{
-    height: 310px;
+    height: 330px;
   }
   .contact{
     padding: 20px 0;
