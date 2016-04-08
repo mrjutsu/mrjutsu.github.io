@@ -340,11 +340,11 @@ footer{
   }
   .skill{
     /*height: auto;*/
-    height: 470px;
+    min-height: 370px;
   }
   .skill-p{
     /*height: auto;*/
-    height: 330px;
+    min-height: 310px;
   }
   .contact{
     padding: 20px 0;
